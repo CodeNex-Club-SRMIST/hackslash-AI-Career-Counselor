@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment files
+.env
+.env.*  # .env.local, .env.production, etc.
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database files (SQLite, local Mongo, etc.)
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sql
+*.bak
+*.tar.gz
+
+# ChromaDB or other vector DB data directories
+chroma/
+vectorstore/
+db/
+data/
+mongo-data/
+
+# IDE/editor-specific
+.vscode/
+.idea/
+*.swp
+
+# Uploads/temp storage
+uploads/
+temp/
+tmp/
